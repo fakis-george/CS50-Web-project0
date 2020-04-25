@@ -1,0 +1,71 @@
+.mapofworld {
+  background-image: url('../images/mapofworld.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul li {
+  font-family: "Times New Roman";
+}
+
+h2, h4 {
+  color: ghostwhite;
+}
+
+h1 {
+  color: dimgrey;
+}
+
+.color {
+  background: peru;
+}
+
+#compass {
+  background-image: url('../images/compass.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.coloring {
+  color: white;
+}
+
+#alligning {
+  text-align: center;
+  color: white;
+}
+
+.with-eight {
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+.center {
+  text-align: center;
+}
+
+#background {
+  background-color: coral;
+}
+
+@media (min-width: 701px) {
+  .responsive{
+    background-color: red;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .responsive{
+    background-color: green;
+  }
+}

@@ -1,0 +1,26 @@
+$color: blue;
+$font: large;
+$background: green;
+$allign: center;
+
+#sass {
+  background-color: $background;
+  text-align: $allign;
+  ol {
+    font-size: $font;
+    li {
+      color: $color;
+    }
+  }
+
+}
+
+%message {
+  font-family:  Arial;
+  font-size: 18px;
+}
+
+span {
+  @extend %message;
+  font-weight: bold;
+}

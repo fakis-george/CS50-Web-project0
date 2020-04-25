@@ -1,0 +1,16 @@
+#sass {
+  background-color: green;
+  text-align: center; }
+  #sass ol {
+    font-size: large; }
+    #sass ol li {
+      color: blue; }
+
+span {
+  font-family: Arial;
+  font-size: 18px; }
+
+span {
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
